@@ -1,2 +1,22 @@
-<!-- O site abre aqui -->
-<router-outlet></router-outlet>
+<div class="wrap">
+
+  <header class="header">
+    LOGO - TITULO
+  </header>
+
+  <nav class="nav">
+    <a routerLink="/home">Início</a>
+    <a routerLink="/news">Notícias</a>
+    <a routerLink="/contacts">Contatos</a>
+    <a routerLink="/about">Sobre</a>
+  </nav>
+
+  <main class="main">
+    <router-outlet>AQUI DENTRO</router-outlet>
+  </main>
+
+  <footer class="footer">
+    &copy; 2020 André Luferat
+  </footer>
+
+</div>
